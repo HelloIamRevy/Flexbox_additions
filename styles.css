@@ -1,0 +1,150 @@
+/* Color Palette
+# - #a6c6ea
+# - #92a6db
+# - #ffffff
+# - #e3e3e3
+
+*/
+
+/* Global styles 
+------------------------------------*/
+/*box-sizing: border-box; */
+body {
+  display: flex;
+  background: lightblue;
+  font-family: "Silkscreen", cursive;
+  margin: 0;
+  /* This will orient all the objects in an Column other wise they go in a row*/
+  flex-direction: column;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.profile-img {
+  display: flex;
+  flex: auto;
+  /* width: 300px; */
+  border-radius: 60% 
+  /* float: left;
+    margin-right: 30px;  */
+}
+.content-wrap {
+  display: flex;
+  flex: auto ;
+  flex-direction: column;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+.column-wide {
+  width: 70%;
+  float: left;
+  min-height: 225px;
+}
+
+.column-narrow {
+  width: 30%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+  display: flex;
+  background: #a6c6ea;
+  font-family: "Silkscreen", cursive;
+}
+
+footer {
+  display: flex;
+  background: #e3e3e3;
+  font-family: "Silkscreen", cursive;
+  text-align: center;
+}
+
+/* Work Experience
+------------------------------------*/
+.workexp {
+  background: #92a6db;
+  font-family: "Silkscreen", cursive;
+}
+
+/* Education
+------------------------------------*/
+.edu {
+  background: linear-gradient(rgba(248,249,250, 0.6),rgba(248,249,250, 0.6)),url(https://c.tenor.com/6mCDQefULAsAAAAd/royals-red-flame.gif) repeat fixed;
+  font-family: "Silkscreen", cursive;
+   
+
+}
+
+
+
+/* Navigation Bar */ 
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_menu */
+
+ nav {
+  display: flex;
+  align-content: space-around;
+  /* Had to use this otherwise when you went to smaller screen menu would not show items */
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+ }
+
+ nav a {
+   display: flex;
+    float:left;
+    display: block;
+    color:#92a6db ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+ }
+
+ nav a:hover {
+  display: flex;
+  background: #ddd;
+  color: black;  
+
+ }
+
+ 
+
+
+ 
